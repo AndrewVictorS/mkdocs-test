@@ -1,4 +1,4 @@
-site_name: MkDocs YouTube Tutorial
+site_name: Tech Speed-up
 site_url: https://james-willett.github.io/mkdocs-material-youtube-tutorial/
 theme:
   name: material
@@ -14,7 +14,7 @@ theme:
     - content.code.copy
   language: en
   palette:
-    - scheme: default
+    - scheme: dark
       toggle:
         icon: material/toggle-switch-off-outline 
         name: Switch to dark mode
@@ -30,11 +30,7 @@ theme:
 extra:
   social:
     - icon: fontawesome/brands/github-alt
-      link: https://github.com/james-willett
-    - icon: fontawesome/brands/twitter
-      link: https://twitter.com/TheJamesWillett
     - icon: fontawesome/brands/linkedin
-      link: https://www.linkedin.com/in/willettjames/
 
 markdown_extensions:
   - pymdownx.highlight:
@@ -49,6 +45,7 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.mark
   - attr_list
+  - md_in_html
 
 copyright: |
   &copy; 2023 <a href="https://github.com/james-willett"  target="_blank" rel="noopener">James Willett</a>
