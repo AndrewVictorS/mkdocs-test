@@ -52,7 +52,7 @@ Finalizado o clone, acesse a pasta:
 * `cd [nome-da-pasta]`
 
 #### Venv
-Agora será criaremos um ambiente virtual para instalação do pacote:
+Agora criaremos um ambiente virtual para instalação do pacote:
 
 * `python -m venv venv` - Cria o Virtual Environment
 * `source venv/bin/activate` - Para ativar no Linux
